@@ -1,3 +1,12 @@
 spring:
   application:
     name: user-management
+  datasource:
+    url: jdbc:mysql://localhost:3306/userdb
+    username: user
+    password: secret
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create
+    database-platform: org.hibernate.dialect.MySQLDialect

@@ -1,3 +1,17 @@
+# Gradle temporary files
+.gradle/
+build/
+
+# IntelliJ IDEA files
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
 # Compiled class file
 *.class
 
